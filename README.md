@@ -49,8 +49,9 @@ The following Transformer models were fine-tuned:
 
 ---
 
-## Repository Structure
-\`\`\`
+## 📁 Repository Structure
+
+```
 FineTuning_Assignment/
 │
 ├── Bert_emotion.ipynb
@@ -62,7 +63,6 @@ FineTuning_Assignment/
 │
 ├── Assignment_Report.pdf
 └── README.md
-\`\`\`
 
 Each notebook focuses on one **model–dataset combination**, performing all assignment tasks for that specific setup.
 
