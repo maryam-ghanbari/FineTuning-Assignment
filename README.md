@@ -52,12 +52,12 @@ Each model follows the same pipeline structure:
 ## 📁 Repository Structure
 FineTuning_Assignment/
 │
-├── emotion_bert.ipynb
-├── emotion_distilbert.ipynb
-├── emotion_albert.ipynb
-├── irony_bert.ipynb
-├── irony_distilbert.ipynb
-├── irony_albert.ipynb
+├── Bert_emotion.ipynb
+├── DistilBERT-Emotion.ipynb
+├── ALBERT-emotion.ipynb
+├── BERT-Irony.ipynb
+├── DistilBERT-Irony.ipynb
+├── ALBERT-Irony.ipynb
 │
 ├── Assignment_Report.pdf
 └── README.md
