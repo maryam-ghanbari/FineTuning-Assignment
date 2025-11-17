@@ -14,6 +14,16 @@ The main objectives of this project are:
 
 ---
 
+## Tasks Implemented
+Each model follows the same pipeline structure:
+1. **Dataset preprocessing** – tokenization, padding, truncation, and encoding.  
+2. **Model training and evaluation** – using the Hugging Face `Trainer` API.  
+3. **Fine-tuning** – hyperparameter optimization (learning rate, batch size, epochs, weight decay).  
+4. **Confusion matrix generation** – to analyze classification errors.  
+5. **Qualitative analysis** – comparing model predictions on sample texts.
+
+---
+
 ## Datasets
 Two publicly available Hugging Face datasets were used:
 1. **Emotion dataset** – classifies emotions expressed in text (e.g., joy, sadness, anger, fear, etc.)
