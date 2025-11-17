@@ -5,7 +5,7 @@ The goal is to explore how models such as **BERT**, **DistilBERT**, and **ALBERT
 
 ---
 
-## 🎯 Objective
+## Objective
 The main objectives of this project are:
 - To understand and apply the fine-tuning process for pre-trained Transformer models.
 - To evaluate model performance on different datasets.
@@ -14,7 +14,7 @@ The main objectives of this project are:
 
 ---
 
-## 📚 Datasets
+## Datasets
 Two publicly available Hugging Face datasets were used:
 1. **Emotion dataset** – classifies emotions expressed in text (e.g., joy, sadness, anger, fear, etc.)
 2. **TweetEval (Irony) dataset** – identifies irony and sarcasm in tweets.
@@ -23,7 +23,7 @@ Both datasets were split into **training**, **validation**, and **test** subsets
 
 ---
 
-## ⚙️ Models and Libraries
+## Models and Libraries
 The following Transformer models were fine-tuned:
 - **BERT** (`bert-base-uncased`)
 - **DistilBERT** (`distilbert-base-uncased`)
@@ -39,7 +39,7 @@ The following Transformer models were fine-tuned:
 
 ---
 
-## 🧩 Tasks Implemented
+## Tasks Implemented
 Each model follows the same pipeline structure:
 1. **Dataset preprocessing** – tokenization, padding, truncation, and encoding.  
 2. **Model training and evaluation** – using the Hugging Face `Trainer` API.  
@@ -49,7 +49,7 @@ Each model follows the same pipeline structure:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 FineTuning_Assignment/
 │
 ├── Bert_emotion.ipynb
@@ -66,7 +66,7 @@ Each notebook focuses on one **model–dataset combination**, performing all ass
 
 ---
 
-## 🧪 Methodology Summary
+## Methodology Summary
 - Pre-trained models were loaded from Hugging Face and adapted for sequence classification tasks.  
 - The datasets were preprocessed using model-specific tokenizers.  
 - Fine-tuning was done using the `Trainer` API with custom training arguments.  
